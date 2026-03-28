@@ -15,7 +15,7 @@ Use this checklist when you want to confirm that the CAClaw brand is presented c
 
 - the repo presents itself as **CAClaw**
 - the repo also clearly says it is **for OpenClaw**
-- the assets visibly show the CAClaw name
+- the assets visibly show the CAClaw text-only wordmark
 - installation still points to the standard OpenClaw plugin flow
 
 ## Quick verification commands

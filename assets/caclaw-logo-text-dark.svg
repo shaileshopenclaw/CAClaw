@@ -1,12 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" role="img" aria-labelledby="title desc">
-  <title id="title">CAClaw wordmark dark text</title>
-  <desc id="desc">CAClaw logo for light backgrounds with a navy CA monogram and dark wordmark.</desc>
+  <title id="title">CAClaw text wordmark dark text</title>
+  <desc id="desc">Text-only CAClaw wordmark for light backgrounds using an Indian tricolor-inspired palette.</desc>
   <rect width="960" height="220" fill="none"/>
-  <g transform="translate(48 40)">
-    <rect x="0" y="0" width="140" height="140" rx="32" fill="#f5e8b8"/>
-    <path d="M42 72c0-22 16-38 39-38 13 0 23 4 31 13L99 60c-5-6-12-9-18-9-12 0-21 9-21 21s9 21 21 21c7 0 13-3 18-9l13 13c-8 9-18 13-31 13-23 0-39-16-39-38z" fill="#0f2744"/>
-    <path d="M85 110l23-76h20l23 76h-19l-4-14h-22l-4 14H85zm38-28l-6-22-6 22h12z" fill="#1b3a5a"/>
-  </g>
-  <text x="236" y="96" fill="#10243d" font-size="72" font-weight="700" letter-spacing="1" font-family="Georgia, 'Times New Roman', serif">CAClaw</text>
-  <text x="238" y="146" fill="#52627a" font-size="24" letter-spacing="3" font-family="Arial, Helvetica, sans-serif">CHARTERED ACCOUNTANT WORKSPACE</text>
+  <text x="48" y="110" font-size="92" font-weight="700" letter-spacing="1" font-family="Georgia, 'Times New Roman', serif">
+    <tspan fill="#FF9933">CA</tspan><tspan fill="#138808">Claw</tspan>
+  </text>
+  <rect x="52" y="134" width="372" height="6" rx="3" fill="#000080" opacity="0.95"/>
+  <text x="50" y="176" fill="#000080" font-size="24" letter-spacing="3" font-family="Arial, Helvetica, sans-serif">CHARTERED ACCOUNTANT WORKSPACE</text>
 </svg>
