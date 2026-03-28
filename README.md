@@ -1,35 +1,35 @@
-# OpenClaw CA Add-on
+# CAClaw
 
 <p align="center">
-  <img src="assets/caclaw-logo-text-dark.svg" alt="OpenClaw CA Add-on" width="720" />
+  <img src="assets/caclaw-logo-text-dark.svg" alt="CAClaw" width="720" />
 </p>
 
 <p align="center">
-  A practical <strong>Chartered Accountant workflow add-on</strong> for OpenClaw.<br />
-  Turn OpenClaw into a more useful assistant for GST, TDS, audit, income tax, financial reporting, and ROC work.
+  <strong>Chartered Accountant add-on for OpenClaw</strong><br />
+  Turn OpenClaw into a more practical assistant for GST, TDS, audit, income tax, financial reporting, and ROC work.
 </p>
 
 <p align="center">
   <img alt="OpenClaw plugin" src="https://img.shields.io/badge/OpenClaw-plugin-1d4ed8?style=for-the-badge" />
   <img alt="Audience" src="https://img.shields.io/badge/Built%20for-Chartered%20Accountants-0f766e?style=for-the-badge" />
+  <img alt="Brand" src="https://img.shields.io/badge/Brand-CAClaw-7c3aed?style=for-the-badge" />
   <img alt="Install" src="https://img.shields.io/badge/Install-git%20clone%20%2B%20openclaw%20plugins%20install-111827?style=for-the-badge" />
-  <img alt="Focus" src="https://img.shields.io/badge/Focus-checklists%20%7C%20review%20support%20%7C%20workflow%20guidance-7c3aed?style=for-the-badge" />
 </p>
 
 ---
 
 ## Table of contents
 
-- [What this is](#what-this-is)
-- [Who this is for](#who-this-is-for)
-- [What it helps with](#what-it-helps-with)
+- [What CAClaw is](#what-caclaw-is)
+- [Who CAClaw is for](#who-caclaw-is-for)
+- [What CAClaw helps with](#what-caclaw-helps-with)
 - [Quick visual preview](#quick-visual-preview)
 - [What is included](#what-is-included)
 - [Important boundary](#important-boundary)
 - [Before you install](#before-you-install)
 - [How to install from GitHub into OpenClaw](#how-to-install-from-github-into-openclaw)
 - [How to check that it is installed correctly](#how-to-check-that-it-is-installed-correctly)
-- [How to use it in OpenClaw](#how-to-use-it-in-openclaw)
+- [How to use CAClaw in OpenClaw](#how-to-use-caclaw-in-openclaw)
 - [Example prompts for a Chartered Accountant](#example-prompts-for-a-chartered-accountant)
 - [Documentation inside this repository](#documentation-inside-this-repository)
 - [Troubleshooting](#troubleshooting)
@@ -37,9 +37,9 @@
 
 ---
 
-## What this is
+## What CAClaw is
 
-This repository adds a **CA-focused workflow pack** to **OpenClaw**.
+CAClaw is a **Chartered Accountant add-on for OpenClaw**.
 
 It helps OpenClaw support recurring professional work such as:
 
@@ -53,28 +53,28 @@ It helps OpenClaw support recurring professional work such as:
 This is **not** a separate app.
 It is an **add-on plugin** you install into OpenClaw.
 
-So the idea is simple:
+So the model is simple:
 
 - **OpenClaw** remains the main product
-- this repository adds the **CA specialization layer**
+- **CAClaw** is the CA specialization layer
 - a CA can use OpenClaw in a more structured, practical way
 
 ---
 
-## Who this is for
+## Who CAClaw is for
 
-This add-on is for:
+CAClaw is for:
 
 - individual Chartered Accountants
 - CA firms
 - article assistants working under CA supervision
 - teams that want reusable checklists, prompts, review structures, and follow-up workflows
 
-If you already use OpenClaw and want it to feel more useful for real CA work, this add-on is for you.
+If you already use OpenClaw and want it to feel more useful for real CA work, CAClaw is for you.
 
 ---
 
-## What it helps with
+## What CAClaw helps with
 
 ### GST
 - return-preparation checklists
@@ -117,16 +117,16 @@ If you already use OpenClaw and want it to feel more useful for real CA work, th
 
 ## Quick visual preview
 
-### 1. OpenClaw with the CA add-on enabled
+### 1. OpenClaw with CAClaw enabled
 
 <p align="center">
-  <img src="assets/preview-dashboard.svg" alt="Illustrative preview of OpenClaw with the CA add-on enabled" width="100%" />
+  <img src="assets/preview-dashboard.svg" alt="Illustrative preview of OpenClaw with CAClaw enabled" width="100%" />
 </p>
 
-### 2. How the CA layer works inside OpenClaw
+### 2. How CAClaw works inside OpenClaw
 
 <p align="center">
-  <img src="assets/preview-workflow.svg" alt="Illustrative preview of how the CA add-on works inside OpenClaw" width="100%" />
+  <img src="assets/preview-workflow.svg" alt="Illustrative preview of how CAClaw works inside OpenClaw" width="100%" />
 </p>
 
 ---
@@ -149,7 +149,7 @@ This repository currently includes:
 
 ## Important boundary
 
-This add-on is designed to **assist** CA work, not to replace review or sign-off.
+CAClaw is designed to **assist** CA work, not to replace review or sign-off.
 
 It does **not** claim to:
 
@@ -165,7 +165,7 @@ Think of it as a well-organized CA assistant layer inside OpenClaw.
 
 ## Before you install
 
-Before using this add-on, you need:
+Before using CAClaw, you need:
 
 1. **OpenClaw installed and working**
 2. access to your terminal on the system where OpenClaw runs
@@ -186,11 +186,11 @@ This is the simplest GitHub-based setup.
 ### Step 1: clone this repository
 
 ```bash
-git clone https://github.com/shaileshopenclaw/CAClaw-ext.git
-cd CAClaw-ext
+git clone https://github.com/shaileshopenclaw/CAClaw-Addon.git
+cd CAClaw-Addon
 ```
 
-### Step 2: install the add-on into OpenClaw
+### Step 2: install CAClaw into OpenClaw
 
 From inside the cloned folder, run:
 
@@ -200,7 +200,7 @@ openclaw plugins install .
 
 This tells OpenClaw to install the plugin from the current local folder.
 
-### Step 3: enable the add-on
+### Step 3: enable CAClaw
 
 ```bash
 openclaw plugins enable caclaw
@@ -220,15 +220,15 @@ You should see the plugin metadata and the CA skill pack.
 openclaw gateway restart
 ```
 
-After restart, the CA add-on is available to OpenClaw.
+After restart, CAClaw is available inside OpenClaw.
 
 ### Optional: link mode for a working checkout
 
 If you want OpenClaw to use this folder directly without copying it:
 
 ```bash
-git clone https://github.com/shaileshopenclaw/CAClaw-ext.git
-cd CAClaw-ext
+git clone https://github.com/shaileshopenclaw/CAClaw-Addon.git
+cd CAClaw-Addon
 openclaw plugins install -l .
 openclaw plugins enable caclaw
 openclaw plugins inspect caclaw
@@ -256,7 +256,7 @@ You should see:
 
 ---
 
-## How to use it in OpenClaw
+## How to use CAClaw in OpenClaw
 
 Start with the main CA router skill:
 
@@ -314,7 +314,7 @@ A simple practical approach is:
 If you want more detail after the basic install, start here:
 
 - [`docs/README.md`](docs/README.md) — simple guide to the documentation set
-- [`docs/workflow-entrypoints.md`](docs/workflow-entrypoints.md) — where a CA should start using the add-on
+- [`docs/workflow-entrypoints.md`](docs/workflow-entrypoints.md) — where a CA should start using CAClaw
 - [`docs/workflow-pack-structure.md`](docs/workflow-pack-structure.md) — how the CA workflow pack is organized
 - [`docs/client-workspace-model.md`](docs/client-workspace-model.md) — how to think about client-wise and compliance-wise organization
 - [`docs/integration-rails.md`](docs/integration-rails.md) — where future integrations should go
@@ -338,7 +338,7 @@ Then restart the gateway again:
 openclaw gateway restart
 ```
 
-If OpenClaw still does not load the add-on, uninstall and reinstall from the cloned folder.
+If OpenClaw still does not load CAClaw, uninstall and reinstall from the cloned folder.
 
 ---
 
@@ -346,7 +346,7 @@ If OpenClaw still does not load the add-on, uninstall and reinstall from the clo
 
 GitHub repository:
 
-- https://github.com/shaileshopenclaw/CAClaw-ext
+- https://github.com/shaileshopenclaw/CAClaw-Addon
 
 OpenClaw plugin install docs:
 

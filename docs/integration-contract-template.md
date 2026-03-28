@@ -1,61 +1,42 @@
----
-summary: "Template for defining future CA integrations before implementation begins"
-read_when:
-  - You are proposing a new CA integration
-  - You want the minimum definition-of-done for integration design
-title: "CA Integration Contract Template"
----
+# CA Integration Contract Template
 
-# CA integration contract template
+Use this template before building a new CA integration.
 
-> Historical note: This page was migrated from the former CAClaw fork. Read "CAClaw" here as the OpenClaw CA add-on unless the page is explicitly describing that old fork history.
+## 1. Basic details
 
+- Integration name:
+- Work area:
+- Main user:
 
-Use this template before implementing any future CA integration.
+## 2. Problem being solved
 
-## Integration name
+- What is the real CA problem?
+- Why is this worth adding now?
 
-- Name:
-- Workstream(s):
-- Client/compliance context:
-
-## Purpose
-
-- What problem does this integration solve?
-- Why is it needed now?
-
-## Chosen seam
+## 3. Best implementation path
 
 - Skill / Plugin / MCP / Combination:
-- Why this seam is correct:
-- Why other seams were not chosen:
+- Why this is the right choice:
 
-## User-facing surface
+## 4. User experience
 
 - Where does the user discover it?
-- Where does the user invoke it?
-- What will the user see before, during, and after use?
+- What does the user type or click?
+- What output does the user receive?
 
-## Data boundary
+## 5. Data boundary
 
-- What data enters the integration?
-- What data leaves the integration?
-- What records or evidence should be kept?
+- What data comes in?
+- What data goes out?
+- What evidence should be retained?
 
-## Auth and secrets
-
-- What credentials are needed?
-- Where are they configured?
-- What is the blast radius if access is misconfigured?
-
-## Verification
-
-- What checks prove the integration works?
-- What checks prove it is safe?
-- What manual review is still required?
-
-## Governance
+## 6. Safety and review
 
 - What human approval is required?
-- What exceptions or failure cases need explicit handling?
-- What tasks remain out of scope for automation?
+- What must never run without review?
+- What failure cases need to be visible?
+
+## 7. Verification
+
+- How will you prove it works?
+- How will you prove it is safe enough for the intended use?

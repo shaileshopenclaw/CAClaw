@@ -1,50 +1,33 @@
-# OpenClaw CA Add-on Migration Map
+# CAClaw Migration Map
 
-This file translates the current fork into an add-on strategy.
+This file explains what belongs inside this repository and what should stay outside it.
 
-## Keep in the add-on
+## Keep inside CAClaw
 
-These are good additive seams and should live in `extensions/caclaw/`:
+These are good fits for the add-on:
 
 - CA workflow skills and checklists
 - CA task-routing prompts
+- CA reference docs
+- CA brand assets for this add-on
 - CA MCP connection recipes
 - CA integration contracts
-- CA workspace conventions expressed as prompts, skills, docs, or services
 - future secure connectors for GST, tax, audit, reporting, reconciliation, and compliance support
 
-## Drop from the fork later
+## Keep outside CAClaw
 
-These old root-level changes were fork-oriented rather than add-on-oriented:
+These do not need to live in the add-on repo:
 
-- `README.md` former CAClaw fork branding
-- `ui/index.html` former CAClaw product title
-- `ui/src/i18n/locales/en.ts` former CAClaw brand language
-- `src/shared/product-brand.ts`
-- `src/commands/configure.wizard.ts` former CAClaw wording
-- `src/commands/onboard.ts` former CAClaw wording
-- `src/commands/status.command.ts` former CAClaw wording
-- `apps/ios/project.yml` former CAClaw display names
-- `apps/android/app/build.gradle.kts` `caclaw-*` package naming
-- former root CA brand assets like `docs/assets/openclaw-logo-text.svg`
-- former root CA brand assets like `docs/assets/openclaw-logo-text-dark.svg`
-- the old fork-maintainer narrative that used to live in `docs/caclaw/`
+- full-product OpenClaw branding changes
+- global UI renames across the main OpenClaw product
+- bundle-id and package-id changes in OpenClaw apps
+- unrelated OpenClaw core logic
 
-## Rework, do not just delete
+## Rework over time
 
-Some CA work is valuable and now belongs in the plugin, but should keep being simplified to fit the add-on model:
+Some docs in this repo started as migration material from the older CAClaw fork work.
+They have been brought here because the ideas are still useful, but they should keep getting simpler and more practical over time.
 
-- `extensions/caclaw/docs/mcp-rails.md` → convert into plugin-local MCP setup docs
-- `extensions/caclaw/docs/plugin-rails.md` → convert into plugin-local extension design docs
-- `extensions/caclaw/docs/integration-contract-template.md` → move into this folder as future partner/integration templates
-- client/compliance organization docs → turn into prompt packs, workflow conventions, or plugin docs rather than core-product UX changes
+## Simple rule
 
-## Honest limitation
-
-A plugin can carry a lot of CA value, but it cannot cleanly own every kind of full-product rebrand.
-
-That means the safest add-on path is:
-
-- keep OpenClaw upstream-facing
-- put CA intelligence in this plugin
-- avoid deep identity changes unless OpenClaw later exposes official branding hooks
+If the change makes OpenClaw more useful for Chartered Accountant workflows without turning this repo into a separate full product, it probably belongs here.

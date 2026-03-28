@@ -1,7 +1,7 @@
 {
   "id": "caclaw",
-  "name": "OpenClaw CA Add-on",
-  "description": "Chartered Accountant workflow pack, prompts, docs, and future integration rails for OpenClaw.",
+  "name": "CAClaw",
+  "description": "Chartered Accountant workflow pack, docs, and future integration rails for OpenClaw.",
   "skills": ["./skills"],
   "configSchema": {
     "type": "object",
