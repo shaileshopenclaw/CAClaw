@@ -98,6 +98,7 @@ If you already use OpenClaw and want it to feel more useful for real CA work, CA
 ### Audit
 - audit-type routing through a main audit branch
 - statutory audit support through a dedicated statutory-audit branch
+- bank audit support through a dedicated bank-audit branch
 - planning support
 - evidence request lists
 - workpaper preparation structure
@@ -143,6 +144,7 @@ This repository currently includes:
 - `ca-income-tax`
 - `ca-audit`
 - `ca-audit-statutory`
+- `ca-audit-bank`
 - `ca-financial-reporting`
 - `ca-roc-compliance`
 - supporting CA docs
@@ -272,6 +274,7 @@ Then use the specific workflow skills when needed:
 - `ca-income-tax`
 - `ca-audit`
 - `ca-audit-statutory`
+- `ca-audit-bank`
 - `ca-financial-reporting`
 - `ca-roc-compliance`
 

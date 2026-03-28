@@ -20,6 +20,7 @@ Current audit branching:
 
 - `ca-audit` = main audit branch
 - `ca-audit-statutory` = dedicated statutory-audit branch
+- `ca-audit-bank` = dedicated bank-audit branch
 
 ### Financial Reporting
 Use for close checklists, schedule preparation, note drafting, and reporting review support.

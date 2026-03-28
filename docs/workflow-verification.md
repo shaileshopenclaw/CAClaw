@@ -9,6 +9,7 @@ Use this checklist to confirm that the CA workflow pack is present and usable.
 - `skills/ca-income-tax/SKILL.md`
 - `skills/ca-audit/SKILL.md`
 - `skills/ca-audit-statutory/SKILL.md`
+- `skills/ca-audit-bank/SKILL.md`
 - `skills/ca-financial-reporting/SKILL.md`
 - `skills/ca-roc-compliance/SKILL.md`
 - `skills/ca-workbench/SKILL.md`
@@ -26,6 +27,13 @@ For statutory audit specifically, verify that:
 - `skills/ca-audit-statutory/references/guides/` exists
 - `skills/ca-audit-statutory/references/knowledge/` exists
 - `skills/ca-audit-statutory/assets/statutory-audit-start-checklist.md` exists
+
+For bank audit specifically, verify that:
+
+- `skills/ca-audit-bank/references/` exists
+- `skills/ca-audit-bank/checklists/` exists
+- `skills/ca-audit-bank/assets/` exists
+- `skills/ca-audit-bank/scripts/` exists
 
 ## Suggested checks
 

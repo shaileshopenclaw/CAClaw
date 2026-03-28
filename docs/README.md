@@ -27,6 +27,11 @@ If you are a Chartered Accountant or a team member using CAClaw, start here.
 - [`compliance-workstreams.md`](compliance-workstreams.md)
 - [`client-workspace-verification.md`](client-workspace-verification.md)
 
+### Audit branches
+- `ca-audit`
+- `ca-audit-statutory`
+- `ca-audit-bank`
+
 ### Growth and integrations
 - [`integration-rails.md`](integration-rails.md)
 - [`mcp-rails.md`](mcp-rails.md)

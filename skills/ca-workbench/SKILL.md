@@ -28,6 +28,7 @@ Use this skill as the front door for Chartered Accountant work inside OpenClaw.
 - `ca-income-tax`
 - `ca-audit`
 - `ca-audit-statutory`
+- `ca-audit-bank`
 - `ca-financial-reporting`
 - `ca-roc-compliance`
 
