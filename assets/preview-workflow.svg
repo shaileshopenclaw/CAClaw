@@ -1,33 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
   <title id="title">CA workflow preview</title>
-  <desc id="desc">Illustrative preview showing OpenClaw, the CA add-on, and practical workflow outputs like checklists and review notes.</desc>
+  <desc id="desc">Illustrative preview showing OpenClaw, CAClaw, and practical workflow outputs like checklists and review notes.</desc>
   <rect width="1200" height="520" fill="#f8fafc"/>
-  <text x="600" y="68" text-anchor="middle" fill="#0f172a" font-size="34" font-weight="700" font-family="Arial, Helvetica, sans-serif">How the CA add-on works inside OpenClaw</text>
+  <text x="600" y="68" text-anchor="middle" fill="#0f172a" font-size="34" font-weight="700" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">How CAClaw works inside OpenClaw</text>
   <g>
     <rect x="72" y="156" width="260" height="220" rx="24" fill="#1d4ed8"/>
-    <text x="202" y="214" text-anchor="middle" fill="#ffffff" font-size="28" font-weight="700" font-family="Arial, Helvetica, sans-serif">OpenClaw</text>
-    <text x="202" y="252" text-anchor="middle" fill="#dbeafe" font-size="18" font-family="Arial, Helvetica, sans-serif">You ask questions in chat,</text>
-    <text x="202" y="280" text-anchor="middle" fill="#dbeafe" font-size="18" font-family="Arial, Helvetica, sans-serif">terminal, or your normal</text>
-    <text x="202" y="308" text-anchor="middle" fill="#dbeafe" font-size="18" font-family="Arial, Helvetica, sans-serif">connected channels.</text>
+    <text x="202" y="214" text-anchor="middle" fill="#ffffff" font-size="28" font-weight="700" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">OpenClaw</text>
+    <text x="202" y="252" text-anchor="middle" fill="#dbeafe" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">You ask questions in chat,</text>
+    <text x="202" y="280" text-anchor="middle" fill="#dbeafe" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">terminal, or your normal</text>
+    <text x="202" y="308" text-anchor="middle" fill="#dbeafe" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">connected channels.</text>
   </g>
   <g>
     <rect x="470" y="120" width="260" height="292" rx="24" fill="#111827"/>
-    <text x="600" y="178" text-anchor="middle" fill="#f8fafc" font-size="28" font-weight="700" font-family="Arial, Helvetica, sans-serif">CA Add-on</text>
-    <text x="600" y="220" text-anchor="middle" fill="#cbd5e1" font-size="18" font-family="Arial, Helvetica, sans-serif">ca-workbench</text>
-    <text x="600" y="252" text-anchor="middle" fill="#cbd5e1" font-size="18" font-family="Arial, Helvetica, sans-serif">GST · TDS · Audit</text>
-    <text x="600" y="284" text-anchor="middle" fill="#cbd5e1" font-size="18" font-family="Arial, Helvetica, sans-serif">Tax · Reporting · ROC</text>
-    <text x="600" y="332" text-anchor="middle" fill="#94a3b8" font-size="17" font-family="Arial, Helvetica, sans-serif">Turns CA work into</text>
-    <text x="600" y="360" text-anchor="middle" fill="#94a3b8" font-size="17" font-family="Arial, Helvetica, sans-serif">structured checklists,</text>
-    <text x="600" y="388" text-anchor="middle" fill="#94a3b8" font-size="17" font-family="Arial, Helvetica, sans-serif">document requests, and</text>
-    <text x="600" y="416" text-anchor="middle" fill="#94a3b8" font-size="17" font-family="Arial, Helvetica, sans-serif">review-oriented prompts.</text>
+    <text x="600" y="178" text-anchor="middle" font-size="30" font-weight="800" letter-spacing="0.3" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">
+      <tspan fill="#FF9933">CA</tspan><tspan fill="#F8FAFC">Claw</tspan>
+    </text>
+    <circle cx="666" cy="160" r="4.5" fill="#000080"/>
+    <text x="600" y="220" text-anchor="middle" fill="#cbd5e1" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">ca-workbench</text>
+    <text x="600" y="252" text-anchor="middle" fill="#cbd5e1" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">GST · TDS · Audit</text>
+    <text x="600" y="284" text-anchor="middle" fill="#cbd5e1" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">Tax · Reporting · ROC</text>
+    <text x="600" y="332" text-anchor="middle" fill="#94a3b8" font-size="17" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">Turns CA work into</text>
+    <text x="600" y="360" text-anchor="middle" fill="#94a3b8" font-size="17" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">structured checklists,</text>
+    <text x="600" y="388" text-anchor="middle" fill="#94a3b8" font-size="17" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">document requests, and</text>
+    <text x="600" y="416" text-anchor="middle" fill="#94a3b8" font-size="17" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">review-oriented prompts.</text>
   </g>
   <g>
     <rect x="868" y="156" width="260" height="220" rx="24" fill="#0f766e"/>
-    <text x="998" y="214" text-anchor="middle" fill="#ffffff" font-size="28" font-weight="700" font-family="Arial, Helvetica, sans-serif">Practical output</text>
-    <text x="998" y="252" text-anchor="middle" fill="#ccfbf1" font-size="18" font-family="Arial, Helvetica, sans-serif">Checklist</text>
-    <text x="998" y="280" text-anchor="middle" fill="#ccfbf1" font-size="18" font-family="Arial, Helvetica, sans-serif">Client follow-up list</text>
-    <text x="998" y="308" text-anchor="middle" fill="#ccfbf1" font-size="18" font-family="Arial, Helvetica, sans-serif">Workpaper plan</text>
-    <text x="998" y="336" text-anchor="middle" fill="#ccfbf1" font-size="18" font-family="Arial, Helvetica, sans-serif">Review questions</text>
+    <text x="998" y="214" text-anchor="middle" fill="#ffffff" font-size="28" font-weight="700" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">Practical output</text>
+    <text x="998" y="252" text-anchor="middle" fill="#ccfbf1" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">Checklist</text>
+    <text x="998" y="280" text-anchor="middle" fill="#ccfbf1" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">Client follow-up list</text>
+    <text x="998" y="308" text-anchor="middle" fill="#ccfbf1" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">Workpaper plan</text>
+    <text x="998" y="336" text-anchor="middle" fill="#ccfbf1" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">Review questions</text>
   </g>
   <path d="M332 266h118" stroke="#64748b" stroke-width="8" stroke-linecap="round"/>
   <path d="M730 266h118" stroke="#64748b" stroke-width="8" stroke-linecap="round"/>

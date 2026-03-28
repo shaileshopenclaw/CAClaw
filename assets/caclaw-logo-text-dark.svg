@@ -1,10 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" role="img" aria-labelledby="title desc">
-  <title id="title">CAClaw text wordmark dark text</title>
-  <desc id="desc">Text-only CAClaw wordmark for light backgrounds using an Indian tricolor-inspired palette.</desc>
+  <title id="title">CAClaw premium text wordmark dark text</title>
+  <desc id="desc">Modern text-only CAClaw wordmark for light backgrounds using an Indian tricolor-inspired palette.</desc>
   <rect width="960" height="220" fill="none"/>
-  <text x="48" y="110" font-size="92" font-weight="700" letter-spacing="1" font-family="Georgia, 'Times New Roman', serif">
+  <text x="48" y="108" font-size="96" font-weight="800" letter-spacing="0.5" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">
     <tspan fill="#FF9933">CA</tspan><tspan fill="#138808">Claw</tspan>
   </text>
-  <rect x="52" y="134" width="372" height="6" rx="3" fill="#000080" opacity="0.95"/>
-  <text x="50" y="176" fill="#000080" font-size="24" letter-spacing="3" font-family="Arial, Helvetica, sans-serif">CHARTERED ACCOUNTANT WORKSPACE</text>
+  <circle cx="432" cy="77" r="7" fill="#000080" opacity="0.95"/>
+  <rect x="52" y="132" width="396" height="5" rx="2.5" fill="#000080" opacity="0.92"/>
+  <text x="50" y="176" fill="#000080" font-size="22" font-weight="600" letter-spacing="4" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">CHARTERED ACCOUNTANT WORKSPACE</text>
 </svg>

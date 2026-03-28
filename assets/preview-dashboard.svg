@@ -4,11 +4,14 @@
   <rect width="1200" height="720" fill="#0f172a"/>
   <rect x="24" y="24" width="1152" height="672" rx="28" fill="#111827" stroke="#334155"/>
   <rect x="48" y="48" width="250" height="624" rx="20" fill="#0b1220" stroke="#1f2937"/>
-  <text x="72" y="94" fill="#f8fafc" font-size="28" font-weight="700" font-family="Arial, Helvetica, sans-serif">CAClaw</text>
-  <text x="72" y="126" fill="#94a3b8" font-size="17" font-family="Arial, Helvetica, sans-serif">CA workflow pack</text>
+  <text x="72" y="96" font-size="30" font-weight="800" letter-spacing="0.3" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">
+    <tspan fill="#FF9933">CA</tspan><tspan fill="#F8FAFC">Claw</tspan>
+  </text>
+  <circle cx="208" cy="75" r="4.5" fill="#000080"/>
+  <text x="72" y="128" fill="#94a3b8" font-size="16" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">CA workflow pack</text>
   <rect x="72" y="160" width="202" height="56" rx="14" fill="#1d4ed8"/>
-  <text x="96" y="196" fill="#ffffff" font-size="20" font-family="Arial, Helvetica, sans-serif">ca-workbench</text>
-  <g fill="#cbd5e1" font-size="18" font-family="Arial, Helvetica, sans-serif">
+  <text x="96" y="196" fill="#ffffff" font-size="20" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">ca-workbench</text>
+  <g fill="#cbd5e1" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">
     <text x="72" y="264">GST</text>
     <text x="72" y="304">TDS</text>
     <text x="72" y="344">Income Tax</text>
@@ -17,27 +20,27 @@
     <text x="72" y="464">ROC Compliance</text>
   </g>
   <rect x="326" y="48" width="826" height="100" rx="20" fill="#111827" stroke="#334155"/>
-  <text x="356" y="92" fill="#f8fafc" font-size="30" font-weight="700" font-family="Arial, Helvetica, sans-serif">Today’s CA workspace</text>
-  <text x="356" y="126" fill="#94a3b8" font-size="18" font-family="Arial, Helvetica, sans-serif">Turn OpenClaw into a checklist-driven assistant for recurring CA work.</text>
+  <text x="356" y="92" fill="#f8fafc" font-size="30" font-weight="700" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">Today’s CA workspace</text>
+  <text x="356" y="126" fill="#94a3b8" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">Turn OpenClaw into a checklist-driven assistant for recurring CA work.</text>
   <rect x="326" y="170" width="250" height="140" rx="20" fill="#172554" stroke="#3b82f6"/>
-  <text x="350" y="214" fill="#dbeafe" font-size="24" font-weight="700" font-family="Arial, Helvetica, sans-serif">GST review</text>
-  <text x="350" y="248" fill="#bfdbfe" font-size="18" font-family="Arial, Helvetica, sans-serif">Missing purchase bills</text>
-  <text x="350" y="274" fill="#bfdbfe" font-size="18" font-family="Arial, Helvetica, sans-serif">3 follow-ups pending</text>
+  <text x="350" y="214" fill="#dbeafe" font-size="24" font-weight="700" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">GST review</text>
+  <text x="350" y="248" fill="#bfdbfe" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">Missing purchase bills</text>
+  <text x="350" y="274" fill="#bfdbfe" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">3 follow-ups pending</text>
   <rect x="600" y="170" width="250" height="140" rx="20" fill="#1f2937" stroke="#475569"/>
-  <text x="624" y="214" fill="#f8fafc" font-size="24" font-weight="700" font-family="Arial, Helvetica, sans-serif">Audit prep</text>
-  <text x="624" y="248" fill="#cbd5e1" font-size="18" font-family="Arial, Helvetica, sans-serif">Evidence request list</text>
-  <text x="624" y="274" fill="#cbd5e1" font-size="18" font-family="Arial, Helvetica, sans-serif">Workpapers planned</text>
+  <text x="624" y="214" fill="#f8fafc" font-size="24" font-weight="700" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">Audit prep</text>
+  <text x="624" y="248" fill="#cbd5e1" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">Evidence request list</text>
+  <text x="624" y="274" fill="#cbd5e1" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">Workpapers planned</text>
   <rect x="874" y="170" width="250" height="140" rx="20" fill="#1f2937" stroke="#475569"/>
-  <text x="898" y="214" fill="#f8fafc" font-size="24" font-weight="700" font-family="Arial, Helvetica, sans-serif">ROC tracker</text>
-  <text x="898" y="248" fill="#cbd5e1" font-size="18" font-family="Arial, Helvetica, sans-serif">2 filings this week</text>
-  <text x="898" y="274" fill="#cbd5e1" font-size="18" font-family="Arial, Helvetica, sans-serif">Docs not complete</text>
+  <text x="898" y="214" fill="#f8fafc" font-size="24" font-weight="700" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">ROC tracker</text>
+  <text x="898" y="248" fill="#cbd5e1" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">2 filings this week</text>
+  <text x="898" y="274" fill="#cbd5e1" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">Docs not complete</text>
   <rect x="326" y="334" width="798" height="314" rx="24" fill="#0b1220" stroke="#334155"/>
-  <text x="356" y="376" fill="#f8fafc" font-size="26" font-weight="700" font-family="Arial, Helvetica, sans-serif">Example conversation</text>
+  <text x="356" y="376" fill="#f8fafc" font-size="26" font-weight="700" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">Example conversation</text>
   <rect x="356" y="402" width="470" height="76" rx="18" fill="#1e293b"/>
-  <text x="380" y="438" fill="#e2e8f0" font-size="18" font-family="Arial, Helvetica, sans-serif">Prepare a GST filing checklist for a monthly client</text>
-  <text x="380" y="462" fill="#94a3b8" font-size="16" font-family="Arial, Helvetica, sans-serif">with missing purchase data.</text>
+  <text x="380" y="438" fill="#e2e8f0" font-size="18" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">Prepare a GST filing checklist for a monthly client</text>
+  <text x="380" y="462" fill="#94a3b8" font-size="16" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">with missing purchase data.</text>
   <rect x="522" y="500" width="570" height="118" rx="18" fill="#0f766e"/>
-  <text x="548" y="536" fill="#ecfeff" font-size="19" font-family="Arial, Helvetica, sans-serif">1. Compare sales ledger with GSTR-1</text>
-  <text x="548" y="566" fill="#ecfeff" font-size="19" font-family="Arial, Helvetica, sans-serif">2. List missing purchase invoices client must send</text>
-  <text x="548" y="596" fill="#ecfeff" font-size="19" font-family="Arial, Helvetica, sans-serif">3. Review ITC risks before final filing</text>
+  <text x="548" y="536" fill="#ecfeff" font-size="19" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">1. Compare sales ledger with GSTR-1</text>
+  <text x="548" y="566" fill="#ecfeff" font-size="19" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">2. List missing purchase invoices client must send</text>
+  <text x="548" y="596" fill="#ecfeff" font-size="19" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif">3. Review ITC risks before final filing</text>
 </svg>
