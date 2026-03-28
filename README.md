@@ -186,8 +186,8 @@ This is the simplest GitHub-based setup.
 ### Step 1: clone this repository
 
 ```bash
-git clone https://github.com/shaileshopenclaw/CAClaw-Addon.git
-cd CAClaw-Addon
+git clone https://github.com/shaileshopenclaw/CAClaw.git
+cd CAClaw
 ```
 
 ### Step 2: install CAClaw into OpenClaw
@@ -227,8 +227,8 @@ After restart, CAClaw is available inside OpenClaw.
 If you want OpenClaw to use this folder directly without copying it:
 
 ```bash
-git clone https://github.com/shaileshopenclaw/CAClaw-Addon.git
-cd CAClaw-Addon
+git clone https://github.com/shaileshopenclaw/CAClaw.git
+cd CAClaw
 openclaw plugins install -l .
 openclaw plugins enable caclaw
 openclaw plugins inspect caclaw
@@ -346,7 +346,7 @@ If OpenClaw still does not load CAClaw, uninstall and reinstall from the cloned 
 
 GitHub repository:
 
-- https://github.com/shaileshopenclaw/CAClaw-Addon
+- https://github.com/shaileshopenclaw/CAClaw
 
 OpenClaw plugin install docs:
 
